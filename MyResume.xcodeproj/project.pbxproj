@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		ABD0FFA52270224700B21E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFA42270224700B21E4E /* AppDelegate.swift */; };
-		ABD0FFA72270224700B21E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFA62270224700B21E4E /* ViewController.swift */; };
 		ABD0FFAA2270224700B21E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD0FFA82270224700B21E4E /* Main.storyboard */; };
 		ABD0FFAC2270224800B21E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD0FFAB2270224800B21E4E /* Assets.xcassets */; };
 		ABD0FFAF2270224800B21E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD0FFAD2270224800B21E4E /* LaunchScreen.storyboard */; };
+		ABD0FFB9227022A500B21E4E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFB8227022A500B21E4E /* User.swift */; };
+		ABD0FFBB227023C800B21E4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFBA227023C800B21E4E /* LoginViewController.swift */; };
+		ABD0FFC32270254700B21E4E /* UserSkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFC22270254700B21E4E /* UserSkillsViewController.swift */; };
+		ABD0FFC52270255C00B21E4E /* UserExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFC42270255C00B21E4E /* UserExperienceViewController.swift */; };
+		ABD0FFC72270256E00B21E4E /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFC62270256E00B21E4E /* UserInfoViewController.swift */; };
+		ABD0FFC92270259F00B21E4E /* ForgotUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFC82270259F00B21E4E /* ForgotUsernameViewController.swift */; };
+		ABD0FFCB227025B300B21E4E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFCA227025B300B21E4E /* ForgotPasswordViewController.swift */; };
+		ABD0FFCF2271965F00B21E4E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFCE2271965F00B21E4E /* Constant.swift */; };
+		ABD0FFD122719A2200B21E4E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFD022719A2200B21E4E /* Company.swift */; };
+		ABD0FFD322719D6600B21E4E /* WorkingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFD222719D6600B21E4E /* WorkingTime.swift */; };
+		ABD0FFD62271F94900B21E4E /* UIAlert+DefaultAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFD52271F94900B21E4E /* UIAlert+DefaultAlert.swift */; };
+		ABD0FFD9227227BE00B21E4E /* UserTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFD8227227BE00B21E4E /* UserTabBarController.swift */; };
+		ABD0FFE0227247E300B21E4E /* UserExpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD0FFDE227247E300B21E4E /* UserExpTableViewCell.swift */; };
+		ABD0FFE1227247E300B21E4E /* UserExpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD0FFDF227247E300B21E4E /* UserExpTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABD0FFA12270224700B21E4E /* MyResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD0FFA42270224700B21E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABD0FFA62270224700B21E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABD0FFA92270224700B21E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABD0FFAB2270224800B21E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD0FFAE2270224800B21E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABD0FFB02270224800B21E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD0FFB8227022A500B21E4E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ABD0FFBA227023C800B21E4E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		ABD0FFC22270254700B21E4E /* UserSkillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSkillsViewController.swift; sourceTree = "<group>"; };
+		ABD0FFC42270255C00B21E4E /* UserExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExperienceViewController.swift; sourceTree = "<group>"; };
+		ABD0FFC62270256E00B21E4E /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		ABD0FFC82270259F00B21E4E /* ForgotUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotUsernameViewController.swift; sourceTree = "<group>"; };
+		ABD0FFCA227025B300B21E4E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		ABD0FFCE2271965F00B21E4E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		ABD0FFD022719A2200B21E4E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		ABD0FFD222719D6600B21E4E /* WorkingTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTime.swift; sourceTree = "<group>"; };
+		ABD0FFD52271F94900B21E4E /* UIAlert+DefaultAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlert+DefaultAlert.swift"; sourceTree = "<group>"; };
+		ABD0FFD8227227BE00B21E4E /* UserTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabBarController.swift; sourceTree = "<group>"; };
+		ABD0FFDE227247E300B21E4E /* UserExpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExpTableViewCell.swift; sourceTree = "<group>"; };
+		ABD0FFDF227247E300B21E4E /* UserExpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserExpTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +80,139 @@
 		ABD0FFA32270224700B21E4E /* MyResume */ = {
 			isa = PBXGroup;
 			children = (
+				ABD0FFDA2272465400B21E4E /* Cells */,
+				ABD0FFD42271F92F00B21E4E /* Extensions */,
+				ABD0FFCD2271962C00B21E4E /* Helpers */,
+				ABD0FFCC227195A500B21E4E /* Base */,
+				ABD0FFB62270225E00B21E4E /* View Controllers */,
+				ABD0FFB72270227300B21E4E /* Models */,
+				ABD0FFB02270224800B21E4E /* Info.plist */,
 				ABD0FFA42270224700B21E4E /* AppDelegate.swift */,
-				ABD0FFA62270224700B21E4E /* ViewController.swift */,
-				ABD0FFA82270224700B21E4E /* Main.storyboard */,
 				ABD0FFAB2270224800B21E4E /* Assets.xcassets */,
 				ABD0FFAD2270224800B21E4E /* LaunchScreen.storyboard */,
-				ABD0FFB02270224800B21E4E /* Info.plist */,
+				ABD0FFA82270224700B21E4E /* Main.storyboard */,
 			);
 			path = MyResume;
+			sourceTree = "<group>";
+		};
+		ABD0FFB62270225E00B21E4E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFD72272278600B21E4E /* User Tabbar Controller */,
+				ABD0FFC1227024FD00B21E4E /* User Skills Controller */,
+				ABD0FFC0227024D000B21E4E /* User Experiance Controller */,
+				ABD0FFBF227024BB00B21E4E /* User Info Controller */,
+				ABD0FFBE2270248A00B21E4E /* Forgot Username Controller */,
+				ABD0FFBD2270247000B21E4E /* Forgot Password Controller */,
+				ABD0FFBC227023D100B21E4E /* Login Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ABD0FFB72270227300B21E4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFB8227022A500B21E4E /* User.swift */,
+				ABD0FFD022719A2200B21E4E /* Company.swift */,
+				ABD0FFD222719D6600B21E4E /* WorkingTime.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABD0FFBC227023D100B21E4E /* Login Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFBA227023C800B21E4E /* LoginViewController.swift */,
+			);
+			path = "Login Controller";
+			sourceTree = "<group>";
+		};
+		ABD0FFBD2270247000B21E4E /* Forgot Password Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFCA227025B300B21E4E /* ForgotPasswordViewController.swift */,
+			);
+			path = "Forgot Password Controller";
+			sourceTree = "<group>";
+		};
+		ABD0FFBE2270248A00B21E4E /* Forgot Username Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFC82270259F00B21E4E /* ForgotUsernameViewController.swift */,
+			);
+			path = "Forgot Username Controller";
+			sourceTree = "<group>";
+		};
+		ABD0FFBF227024BB00B21E4E /* User Info Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFC62270256E00B21E4E /* UserInfoViewController.swift */,
+			);
+			path = "User Info Controller";
+			sourceTree = "<group>";
+		};
+		ABD0FFC0227024D000B21E4E /* User Experiance Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFC42270255C00B21E4E /* UserExperienceViewController.swift */,
+			);
+			path = "User Experiance Controller";
+			sourceTree = "<group>";
+		};
+		ABD0FFC1227024FD00B21E4E /* User Skills Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFC22270254700B21E4E /* UserSkillsViewController.swift */,
+			);
+			path = "User Skills Controller";
+			sourceTree = "<group>";
+		};
+		ABD0FFCC227195A500B21E4E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		ABD0FFCD2271962C00B21E4E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFCE2271965F00B21E4E /* Constant.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		ABD0FFD42271F92F00B21E4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFD52271F94900B21E4E /* UIAlert+DefaultAlert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ABD0FFD72272278600B21E4E /* User Tabbar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFD8227227BE00B21E4E /* UserTabBarController.swift */,
+			);
+			path = "User Tabbar Controller";
+			sourceTree = "<group>";
+		};
+		ABD0FFDA2272465400B21E4E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFDD227247BE00B21E4E /* User Exp Cell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ABD0FFDD227247BE00B21E4E /* User Exp Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0FFDE227247E300B21E4E /* UserExpTableViewCell.swift */,
+				ABD0FFDF227247E300B21E4E /* UserExpTableViewCell.xib */,
+			);
+			path = "User Exp Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD0FFE1227247E300B21E4E /* UserExpTableViewCell.xib in Resources */,
 				ABD0FFAF2270224800B21E4E /* LaunchScreen.storyboard in Resources */,
 				ABD0FFAC2270224800B21E4E /* Assets.xcassets in Resources */,
 				ABD0FFAA2270224700B21E4E /* Main.storyboard in Resources */,
@@ -135,8 +287,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABD0FFA72270224700B21E4E /* ViewController.swift in Sources */,
+				ABD0FFE0227247E300B21E4E /* UserExpTableViewCell.swift in Sources */,
+				ABD0FFBB227023C800B21E4E /* LoginViewController.swift in Sources */,
+				ABD0FFD9227227BE00B21E4E /* UserTabBarController.swift in Sources */,
+				ABD0FFD322719D6600B21E4E /* WorkingTime.swift in Sources */,
+				ABD0FFC92270259F00B21E4E /* ForgotUsernameViewController.swift in Sources */,
+				ABD0FFD62271F94900B21E4E /* UIAlert+DefaultAlert.swift in Sources */,
+				ABD0FFCF2271965F00B21E4E /* Constant.swift in Sources */,
+				ABD0FFD122719A2200B21E4E /* Company.swift in Sources */,
+				ABD0FFC72270256E00B21E4E /* UserInfoViewController.swift in Sources */,
 				ABD0FFA52270224700B21E4E /* AppDelegate.swift in Sources */,
+				ABD0FFCB227025B300B21E4E /* ForgotPasswordViewController.swift in Sources */,
+				ABD0FFC32270254700B21E4E /* UserSkillsViewController.swift in Sources */,
+				ABD0FFB9227022A500B21E4E /* User.swift in Sources */,
+				ABD0FFC52270255C00B21E4E /* UserExperienceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R22NV699R6;
 				INFOPLIST_FILE = MyResume/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R22NV699R6;
 				INFOPLIST_FILE = MyResume/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
