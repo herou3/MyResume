@@ -71,9 +71,6 @@ class LoginViewController: UIViewController {
 		NotificationCenter.default.removeObserver(self,
 																							name: UIResponder.keyboardWillHideNotification,
 																							object: nil)
-		NotificationCenter.default.removeObserver(self,
-																							name: UIResponder.keyboardWillChangeFrameNotification,
-																							object: nil)
 	}
 	
 	// MARK: - Configure methods and design
@@ -107,10 +104,6 @@ class LoginViewController: UIViewController {
 		NotificationCenter.default.addObserver(self,
 																					 selector: #selector(keyboardWillHide(notification:)),
 																					 name: UIResponder.keyboardWillHideNotification,
-																					 object: nil)
-		NotificationCenter.default.addObserver(self,
-																					 selector: #selector(keyboardWillChange(notification:)),
-																					 name: UIResponder.keyboardWillChangeFrameNotification,
 																					 object: nil)
 	}
 	
@@ -150,11 +143,9 @@ class LoginViewController: UIViewController {
 		guard let keyboardRect = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else {
 			return
 		}
-		view.frame.origin.y -= keyboardRect.height / 2
-	}
-	
-	@objc private func keyboardWillChange(notification: Notification) {
-		self.view.frame.origin.y = 0
+		if view.frame.origin.y == 0 {
+			view.frame.origin.y -= keyboardRect.height / 2
+		}
 	}
 	
 	@objc private func keyboardWillHide(notification: Notification) {
