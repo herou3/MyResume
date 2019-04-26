@@ -219,9 +219,13 @@ extension LoginViewController: UITextFieldDelegate {
 		if textField == usernameTextField {
 			passwordTextField.becomeFirstResponder()
 			return false
-		} else {
+		} else if textField == passwordTextField {
 			self.view.endEditing(true)
+			if isCorrectedInformation() {
+				performSegue(withIdentifier: "returnTabBarController", sender: self)
+			}
 			return true
 		}
+		return true
 	}
 }
